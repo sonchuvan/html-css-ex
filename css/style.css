@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 #menu {
     max-width: 100%;
     padding: 20px 20px 30px 20px;
@@ -33,7 +35,7 @@
 }
 @media only screen and (max-width: 992px) {
     #menu {
-        background-color: #536895;
+        background-color: #242e42;
         color: white;
     }
     #banner img {
@@ -113,7 +115,7 @@
     padding-bottom: 30px;
 }
 
-#info-element {
+.info-element {
     height: auto;
     margin: 10px 5px 15px 30px;
 }
